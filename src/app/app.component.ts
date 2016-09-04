@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PruebasComponent } from './pruebas/pruebas.component';
 
 @Component({
   moduleId: module.id,

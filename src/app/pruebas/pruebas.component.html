@@ -1,0 +1,8 @@
+<ul>
+ <li *ngFor="let prueba of pruebas">
+ <span>{{prueba}}</span>
+ </li>
+</ul>
+
+<h3>Añadir nueva prueba:</h3>
+<input type="text" [(ngModel)]="nuevaPrueba" (keydown.enter)="add()" />
